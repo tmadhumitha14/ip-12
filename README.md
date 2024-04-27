@@ -8,7 +8,7 @@
         <color>black</color>
      
     </car>
-    <!-- Similarly for other cars -->
+  
 </cars>
 
 <cars>
@@ -19,7 +19,6 @@
         <color>silvery grey</color>
         <image>images/ferrari.jpg</image>
     </car>
-    <!-- Similarly for other cars -->
 </cars>
 <cars>
     <car>
@@ -29,7 +28,7 @@
         <color>Red</color>
         <image>images/ferrari.jpg</image>
     </car>
-    <!-- Similarly for other cars -->
+
 </cars
 
 
@@ -100,7 +99,7 @@ $(document).ready(function() {
 
                 carsHtml += carHtml;
             });
-            // Display the car gallery
+           
             $('#carGallery').html(carrs.html);
         },
         error: function(xhr, status, error) {
@@ -109,7 +108,7 @@ $(document).ready(function() {
         }
     });
 
-    // Display car details when an image is clicked
+
     $(document).on('click', '.car img', function() {
         var $car = $(this).closest('.car');
         var make = $car.data('make');
