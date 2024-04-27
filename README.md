@@ -62,7 +62,7 @@
 </head>
 <body>
     <div id="carGallery">
-    <!-- Car gallery will be displayed here -->
+
 </div>
   
 <div id="carDetails">
